@@ -1,0 +1,84 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/xilinx_ip/axi_ram/sim/axi_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_crossbar_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/run_vivado/project/loongson.gen/sources_1/ip/data_bank_ram/sim/data_bank_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_bank_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEreg
+WARNING: [VRFC 10-3380] identifier 'dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/EX.v:283]
+WARNING: [VRFC 10-3380] identifier 'dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/EX.v:284]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDreg
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'inst_cacop' is not allowed [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/ID.v:565]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'cacop_code' is not allowed [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/ID.v:567]
+WARNING: [VRFC 10-3380] identifier 'icacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/ID.v:241]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFreg
+WARNING: [VRFC 10-2938] 'icacop_addr' is already implicitly declared on line 115 [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:300]
+WARNING: [VRFC 10-3248] data object 'cacop_code' is already declared [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:302]
+WARNING: [VRFC 10-9364] second declaration of 'cacop_code' is ignored [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:302]
+WARNING: [VRFC 10-3380] identifier 'icacop_vaddr' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:245]
+WARNING: [VRFC 10-3380] identifier 'inst_cacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:259]
+WARNING: [VRFC 10-3380] identifier 'icacop_vaddr' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:267]
+WARNING: [VRFC 10-3380] identifier 'icacop_vaddr' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:268]
+WARNING: [VRFC 10-3380] identifier 'icacop_next' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/IF.v:316]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/axi_wrap/axi_wrap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/ram_wrap/axi_wrap_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_regfile
+INFO: [VRFC 10-311] analyzing module tagv_regfile
+INFO: [VRFC 10-311] analyzing module cache
+WARNING: [VRFC 10-3380] identifier 'cacop_wr_tagv' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:324]
+WARNING: [VRFC 10-3380] identifier 'reg_tagv_dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:327]
+WARNING: [VRFC 10-3380] identifier 'cacop_wr_tagv' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:343]
+WARNING: [VRFC 10-3380] identifier 'reg_tagv_dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:346]
+WARNING: [VRFC 10-3380] identifier 'dcacop_hit0' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:425]
+WARNING: [VRFC 10-3380] identifier 'dcacop_hit1' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:426]
+WARNING: [VRFC 10-3380] identifier 'reg_tagv_dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:477]
+WARNING: [VRFC 10-3380] identifier 'reg_tagv_dcacop' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:481]
+WARNING: [VRFC 10-3380] identifier 'cacop_next' is used before its declaration [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cache.v:530]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Stable_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/csrfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSRfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_full_adder
+INFO: [VRFC 10-311] analyzing module wallace_add_unit
+INFO: [VRFC 10-311] analyzing module Wallace_Mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/sram_axi_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_axi_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/tlb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/testbench/mycpu_tb.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86156/Desktop/calab/calab-68/Cooperative_project/prj7_exp23/mycpu_env/soc_verify/soc_axi/run_vivado/project/loongson.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
